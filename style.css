@@ -1,0 +1,391 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(9, 16, 87);
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url("kepek/canva2.png");
+    background-size: cover;
+    font-family: 'Audiowide', 'Times New Roman';
+    font-size: 30px;
+    height: 36vh;
+}
+
+.cim {
+    margin: 0px;
+    text-shadow: 4px 4px 10px rgba(219, 211, 211, 0.8), -4px -4px 10px rgba(219, 211, 211, 0.8);
+}
+
+.container,
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(219, 211, 211);
+}
+
+.blue {
+    background-color: rgb(9, 16, 87);
+}
+
+nav {
+    padding: 8px;
+    flex: 1 1 100%;
+    background-color: rgb(236, 131, 5);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    display: block;
+    padding: 8px;
+    color: rgb(9, 16, 87);
+    background-color: rgb(219, 211, 211);
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 6px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Audiowide', 'Times New Roman';
+}
+
+nav ul li a.active,
+nav li a:hover {
+    background-color: rgb(9, 16, 87);
+    color: rgb(219, 211, 211);
+}
+
+hr {
+    flex-basis: 100%;
+    height: 5px;
+    background-color: rgb(9, 16, 87);
+    margin: 0px;
+    border: 0px;
+}
+
+.tartalom {
+    justify-content: center;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+
+.fooldal_art {
+    flex-basis: 100%;
+    background-color: rgb(219, 211, 211);
+    padding: 10px 20px;
+    margin: 10px 5px 5px 5px;
+    font-size: 18px;
+}
+
+.fooldal_h3 {
+    font-size: 30px;
+    text-align: left;
+    color: rgb(236, 131, 5);
+}
+
+.fooladal_fajtak {
+    background-color: rgb(2, 76, 170);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 3px 10px 10px 10px;
+    flex-basis: 100%;
+    color: rgb(219, 211, 211);
+}
+
+.basic_link {
+    text-decoration: none;
+    color: rgb(2, 76, 170);
+}
+
+#basics_art {
+    margin-left: 5px;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+#teszt {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(236, 131, 5);
+    color: rgb(9, 16, 87);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#kerdoiv {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(2, 76, 170);
+    color: rgb(219, 211, 211);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+form ol {
+    list-style-type: none;
+}
+
+.gomb {
+    border-radius: 10px;
+    color: rgb(236, 131, 5);
+    background-color: rgb(9, 16, 87);
+    font-size: 15px;
+    padding: 5px;
+}
+
+.tartalom_equ {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    background-color: rgb(219, 211, 211);
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.equ_art {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    padding: 15px;
+}
+
+.equ_fig {
+    display: flex;
+    flex-basis: 100%;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.equ_fig a {
+    text-align: center;
+}
+
+.equ_img {
+    width: 60%;
+}
+
+span {
+    font-weight: bold;
+}
+
+#rules {
+    color: rgb(236, 131, 5);
+    font-size: 25px;
+}
+
+#rules li {
+    padding: 5px;
+}
+
+.pad {
+    padding: 15px;
+}
+
+#map {
+    height: 500px;
+    flex-basis: 100%;
+    margin: 10px;
+
+}
+
+#helyszinek_bp,
+#helyszinek_szikla {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-basis: 100%;
+    padding: 10px;
+    font-size: 52px;
+    font-family: 'Audiowide', 'Times New Roman';
+}
+
+#helyszinek_h6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-basis: 100%;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 0px;
+    font-family: 'Audiowide', 'Times New Roman';
+}
+
+footer {
+    display: flex;
+    flex-basis: 100%;
+    height: 100px;
+    color: rgb(219, 211, 211);
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.footer_mas {
+    display: flex;
+    flex-basis: 100%;
+    height: 100px;
+    color: rgb(219, 211, 211);
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: rgb(219, 211, 211);
+    color: rgb(9, 16, 87);
+}
+
+
+@media all and (min-width: 600px) {
+    nav {
+        height: 70px;
+        align-content: center;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    li {
+        flex-basis: 18%;
+    }
+
+    nav li a {
+        margin-bottom: 0px;
+    }
+
+    .tartalom {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .fooladal_fajtak {
+        flex-basis: 45%;
+        margin: 5px;
+    }
+
+    .fooldal_art {
+        flex-basis: 80%;
+        margin: 15px;
+    }
+
+    #lista_fooldal {
+        flex-direction: column;
+    }
+
+    .fooladal_fajtak {
+        flex-basis: 47%;
+        margin: 5px;
+    }
+
+    #kerdoiv {
+        flex-basis: 60%;
+    }
+
+    .tartalom_equ {
+        flex-basis: 80%;
+    }
+
+    .equ_fig {
+        flex-basis: 48%;
+    }
+
+    .equ_art {
+        flex-basis: 48%;
+        padding: 10px;
+    }
+
+    #map {
+        flex-basis: 78%;
+    }
+
+    #helyszinek_bp {
+        flex-basis: 38%;
+        justify-content: flex-start;
+        text-align: left;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .fooldal_art {
+        flex-basis: 60%;
+    }
+
+    .fooladal_fajtak:hover {
+        transform: scale(1.1);
+        box-shadow: 3px 3px 10px rgb(9, 16, 87);
+    }
+
+    #kerdoiv {
+        flex-basis: 30%;
+    }
+
+    #teszt {
+        flex-basis: 60%;
+    }
+
+    .tartalom_equ {
+        flex-basis: 50%;
+    }
+
+    .equ_fig {
+        flex-basis: 48%;
+    }
+
+    .equ_art {
+        flex-basis: 48%;
+    }
+
+    .equ_img {
+        width: 90%;
+    }
+
+    #map {
+        flex-basis: 68%;
+    }
+
+    #helyszinek_bp {
+        flex-basis: 28%;
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+
+
+}
