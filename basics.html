@@ -176,7 +176,7 @@
                         <input type="text" name="gondnev" size="40" id="gondnev">
                     </p>
                     <p><label for="telo">telefonszám (16 év alatt gondviselőé):</label><br>
-                        <input type="tel" name="telszam" size="40" id="telo">
+                        <input type="tel" name="telszam" size="40" id="telo" placeholder="+36">
                     </p>
                     <p><label for="mail">email cím (16 év alatt gondviselőé):</label><br>
                         <input type="email" name="email" size="40" id="mail">
@@ -218,24 +218,47 @@
             $("#myform").validate({
                 rules: {
                     nev: "required",
-                    datum: "required",
+                    datum: 
+                    {
+                         required: true,
+                         date: true
+                    },
                     telszam:
                     {
                         required: true,
+                        minlength: 11,
+                        maxlength: 12,
                     },
                     email:
                     {
                         required: true,
                         email: true
                     },
+                    tipus:
+                    {
+                        required: true
 
+                    },
+                    szint:
+                    {
+                        required: true
+
+                    }
+                },
+                errorPlacement: function(error, element) {
+                if (element.attr("type") === "radio") {
+                    error.insertAfter(element.closest("p").last());
+                } else {
+                    error.insertAfter(element);
+                }
                 },
                 messages: {
-                    nev: "Kérlek add meg a teljes neved!",
-                    datum: "Kérlek add meg a születési dátumod!",
-                    telszam: "Kérlek adj meg egy valós telefonszámot!",
-                    email: " Kérlek valós email címet adj meg!",
-                    tipus: "Kérlek válassz!"
+                    nev: "<br>Kérlek add meg a teljes neved!",
+                    datum: "<br>Kérlek add meg a születési dátumod!",
+                    telszam: "<br>Kérlek adj meg egy valós telefonszámot!",
+                    email: "<br>Kérlek valós email címet adj meg!",
+                    tipus: "Kérlek válassz típust!",
+                    szint: "Kérlek válassz szintet!"
                 },
 
             });
