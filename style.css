@@ -272,7 +272,9 @@ footer {
     padding: 10px;
     margin: 0px;
 }
-
+label.error {
+    color: rgb(236, 131, 5);
+    }
 
 @media all and (min-width: 600px) {
     header{font-size: 200%;}
