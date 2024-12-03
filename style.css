@@ -22,12 +22,16 @@ header {
     background-size: cover;
     font-family: 'Audiowide', 'Times New Roman';
     height: 36vh;
+    font-size: 2em;
 }
 
 .cim {
     margin: 0px;
     text-shadow: 4px 4px 10px rgba(219, 211, 211, 0.8), -4px -4px 10px rgba(219, 211, 211, 0.8);
-    font-size: 3.7em;
+    flex-basis: 90%;
+}
+h1{display: flex;
+align-items: flex-end;
 }
 
 .container,
