@@ -131,16 +131,18 @@ hr {
     flex-wrap: wrap;
     justify-content: center;
     padding: 10px;
+    margin: 10px;
     border-radius: 20px;
     background-color: rgb(236, 131, 5);
     color: rgb(9, 16, 87);
     font-size: 15px;
     font-weight: bold;
+    text-align: left;
 }
 
 #kerdoiv {
     display: flex;
-    flex-basis: 100%;
+    flex-basis: 95%;
     justify-content: center;
     margin: 10px;
     padding: 10px;
@@ -149,6 +151,7 @@ hr {
     color: rgb(219, 211, 211);
     font-size: 15px;
     font-weight: bold;
+    text-align: left;
 }
 
 form ol {
@@ -228,7 +231,7 @@ span {
     text-align: center;
     flex-basis: 100%;
     padding: 10px;
-    font-size: 10px;
+    font-size: 50px;
     font-family: 'Audiowide', 'Times New Roman';
 }
 
@@ -239,7 +242,7 @@ span {
     text-align: center;
     flex-basis: 100%;
     padding: 10px;
-    font-size: 20px;
+    font-size: 50px;
     margin-top: 0px;
     font-family: 'Audiowide', 'Times New Roman';
 }
