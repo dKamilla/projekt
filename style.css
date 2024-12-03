@@ -22,7 +22,7 @@ header {
     background-size: cover;
     font-family: 'Audiowide', 'Times New Roman';
     height: 36vh;
-    font-size: 2em;
+    font-size: 200%;
 }
 
 .cim {
@@ -142,7 +142,7 @@ hr {
 
 #kerdoiv {
     display: flex;
-    flex-basis: 95%;
+    flex-basis: 100%;
     justify-content: center;
     margin: 10px;
     padding: 10px;
@@ -231,7 +231,7 @@ span {
     text-align: center;
     flex-basis: 100%;
     padding: 10px;
-    font-size: 50px;
+    font-size: 280%;
     font-family: 'Audiowide', 'Times New Roman';
 }
 
