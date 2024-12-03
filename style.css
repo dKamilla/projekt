@@ -22,7 +22,7 @@ header {
     background-size: cover;
     font-family: 'Audiowide', 'Times New Roman';
     height: 36vh;
-    font-size: 200%;
+    font-size: 170%;
 }
 
 .cim {
@@ -272,6 +272,7 @@ footer {
 
 
 @media all and (min-width: 600px) {
+    header{font-size: 200%;}
     nav {
         height: 70px;
         align-content: center;
