@@ -83,7 +83,7 @@ function calc() {
         }
     }
 
-    if (csapat && ajanlas != szikla && ajanlas != semmi) { ajanlas += "Csoportos edzést ajánlunk." }
+    if (csapat && ajanlas != szikla && ajanlas != semmi) { ajanlas += " Csoportos edzést ajánlunk." }
     else if (ajanlas == szikla) { ajanlas += " Ezt a kurzust kizárólag csoportos óra keretein belül lehet választani." }
     else if (ajanlas != semmi) { ajanlas += " Egyéni órát javaslunk." }
     if (mobilitas || hajlekonysag && ajanlas != semmi) { ajanlas += " Ha a mászás mellett szívesen koncentrálnál a mobilitásra és/vagy a hajlékonyságra, az órák mellett érdemes ilyen típusú gyakorlatokat végezned, de edződ felé is bátran jelezd igényedet!" }
