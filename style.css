@@ -21,7 +21,7 @@ header {
     background: url("kepek/canva2.png");
     background-size: cover;
     font-family: 'Audiowide', 'Times New Roman';
-    font-size: 30px;
+    font-size: 2em;
     height: 36vh;
 }
 
@@ -229,7 +229,7 @@ span {
     text-align: center;
     flex-basis: 100%;
     padding: 10px;
-    font-size: 52px;
+    font-size: 3.2em;
     font-family: 'Audiowide', 'Times New Roman';
 }
 
